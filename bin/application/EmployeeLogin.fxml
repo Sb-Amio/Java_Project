@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="661.0" style="-fx-background-color: #6150D0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.EmployeeLoginController">
+   <children>
+      <Button fx:id="addaccountID" layoutX="306.0" layoutY="79.0" mnemonicParsing="false" onAction="#addaccountButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Add Account">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="depositID" layoutX="306.0" layoutY="118.0" mnemonicParsing="false" onAction="#depositButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Deposit Money">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="withdrawID" layoutX="306.0" layoutY="158.0" mnemonicParsing="false" onAction="#withdrawButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Withdraw Money">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="transferID" layoutX="307.0" layoutY="199.0" mnemonicParsing="false" onAction="#transferButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Transfer Money">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="summaryID" layoutX="307.0" layoutY="239.0" mnemonicParsing="false" onAction="#summaryButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Summary of an Account">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="transactionID" layoutX="307.0" layoutY="279.0" mnemonicParsing="false" onAction="#transactionButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Transaction of an Account">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="showspecificID" layoutX="307.0" layoutY="320.0" mnemonicParsing="false" onAction="#showspecificButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Show Accounts of Specific types">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="showallID" layoutX="307.0" layoutY="359.0" mnemonicParsing="false" onAction="#showallButton" prefHeight="32.0" prefWidth="315.0" style="-fx-background-color: #8E95ED;" text="Show All Accounts">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backID" layoutX="393.0" layoutY="406.0" mnemonicParsing="false" onAction="#backButton" prefHeight="32.0" prefWidth="144.0" style="-fx-background-color: #DAE9F6;" text="Back to Main Menu">
+         <font>
+            <Font size="14.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <ImageView fitHeight="454.0" fitWidth="469.0" layoutX="-77.0" layoutY="12.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Employee.png" />
+         </image>
+      </ImageView>
+      <Label alignment="CENTER" layoutX="150.0" layoutY="14.0" prefHeight="40.0" prefWidth="383.0" text="You Have Entered As Employee" textAlignment="CENTER" textFill="WHITE">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font></Label>
+   </children>
+</AnchorPane>

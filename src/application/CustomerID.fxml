@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.effect.Glow?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="474.0" prefWidth="661.0" style="-fx-background-color: #6150D0;" xmlns="http://javafx.com/javafx/19" xmlns:fx="http://javafx.com/fxml/1" fx:controller="application.CustomerIDController">
+   <children>
+      <PasswordField fx:id="passwordID" layoutX="345.0" layoutY="154.0" onAction="#nextButton" prefHeight="48.0" prefWidth="250.0" promptText="CustomerNID">
+         <font>
+            <Font size="13.0" />
+         </font>
+         <effect>
+            <Glow />
+         </effect>
+      </PasswordField>
+      <Button fx:id="nextID" layoutX="488.0" layoutY="285.0" mnemonicParsing="false" onAction="#nextButton" prefHeight="59.0" prefWidth="120.0" style="-fx-background-color: #8E95ED;" text="Next">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Button fx:id="backID" layoutX="332.0" layoutY="285.0" mnemonicParsing="false" onAction="#backButton" prefHeight="59.0" prefWidth="120.0" style="-fx-background-color: #8E95ED;" text="Back">
+         <font>
+            <Font size="15.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Button>
+      <Label alignment="CENTER" layoutX="324.0" layoutY="67.0" prefHeight="30.0" prefWidth="292.0" text="Enter Your NID" textFill="#f2f2f2">
+         <font>
+            <Font name="System Bold" size="20.0" />
+         </font>
+      </Label>
+      <Label fx:id="labelID" alignment="CENTER" layoutX="345.0" layoutY="214.0" prefHeight="48.0" prefWidth="250.0" textFill="#cfd8e5">
+         <font>
+            <Font size="15.0" />
+         </font>
+      </Label>
+      <ImageView fitHeight="275.0" fitWidth="292.0" layoutX="35.0" layoutY="100.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../Login.png" />
+         </image>
+      </ImageView>
+   </children>
+</AnchorPane>
